@@ -5,7 +5,7 @@ const bodyParser = require("body-parser");
 const moment = require("moment");
 const cookieParser = require("cookie-parser");
 const cors = require("cors");
-const newsRoute = require("./routes/news");
+const newsRoute = require("./routes/news.js");
 
 const corsOptions = {
   origin: "http://localhost:8000",
